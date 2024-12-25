@@ -3,19 +3,63 @@
 @tailwind utilities;
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #0D0D0D;
+  --foreground: #B7AB98;
+  --primary: #EB5939;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+* {
+  scroll-behavior: smooth;
 }
 
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+li {
+  font-family: var(--font-syne);
+}
+
+p {
+  font-family: var(--font-manrope);
+  @apply lg:text-[1.125rem] text-[1rem] leading-[1.5]
+}
+
+span {
+  color: var(--primary)
+}
+
+h1 {
+  @apply text-[2rem] lg:text-[3.5rem] font-bold leading-[1.125] lg:leading-[0.9] text-center
+}
+
+li {
+  @apply text-[2rem] lg:text-[3.5rem] font-bold leading-[1.125] lg:leading-[0.9]
+}
+
+h2 {
+  @apply text-[1.5rem] lg:text-[2.5rem] font-bold leading-[1.125] lg:leading-[1.2]
+}
+
+h3 {
+  @apply text-[1.25rem] lg:text-[2rem] font-semibold leading-[1.125] lg:leading-[1.2]
+}
+
+h4 {
+  @apply text-[1rem] lg:text-[1.5rem] font-bold leading-[1.125] lg:leading-[1.2] uppercase tracking-[4px]
+}
+
+h5 {
+  @apply text-[0.875rem] lg:text-[1.25rem] font-semibold leading-[1.125] lg:leading-[1.2]
+}
+
+button {
+  font-family: var(--font-manrope);
+  @apply text-[0.875rem] lg:text-[1.125rem] font-semibold leading-[1.125] lg:leading-[1.2]
 }
