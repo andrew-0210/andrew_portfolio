@@ -17,7 +17,7 @@ const projects = [
   {
     name: 'Uniclo',
     type: 'Product Design',
-    pic: '/Cover.png',
+    pic: '/Uniclo_Cover.png',
     href: '/',
   },
 ];
