@@ -17,10 +17,16 @@ const Contact = () => {
   return (
     <Container>
       <footer
-        className='flex flex-col gap-[1.5rem] py-[5rem] lg:py-[9.5rem]'
+        className='flex flex-col gap-[4rem] py-[2rem] lg:py-0 lg:pt-[9.5rem]'
         id='contact'
       >
-        <h4>Connect with Me</h4>
+        <div className='flex flex-col gap-[1rem]'>
+          <h4>Connect with Me</h4>
+          <span className='text-[#B7AB98] font-semibold'>
+            If you have a job opportunity in mind, I would like to hear from
+            you.
+          </span>
+        </div>
         <div>
           <div className='flex lg:flex-row flex-col gap-[5rem] lg:gap-[9.5rem]'>
             <ul className='flex flex-col gap-5 font-semibold leading-[1.5] -tracking-[1]'>
@@ -48,6 +54,11 @@ const Contact = () => {
               </a>
             </div>
           </div>
+        </div>
+        <div className='py-[1.5rem] border-t border-[#3d3c3b]'>
+          <p className='text-[0.875rem] text-center font-bold' id='footer '>
+            &copy; 2021 - {new Date().getFullYear()} Andrew.
+          </p>
         </div>
       </footer>
     </Container>
