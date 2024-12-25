@@ -2,6 +2,7 @@ import Navbar from '@/components/Navbar';
 import { syne, manrope } from './font/font';
 
 import './globals.css';
+import Contact from '@/components/Contact';
 
 export const metadata = {
   title: 'Andrew Portfolio',
@@ -14,6 +15,7 @@ export default function RootLayout({ children }) {
       <body className={`${syne.variable} ${manrope.variable} antialiased`}>
         <Navbar />
         {children}
+        <Contact />
       </body>
     </html>
   );

@@ -4,8 +4,8 @@ import Container from './Container';
 const Hero = () => {
   return (
     <Container>
-      <section className='flex items-center justify-center h-screen'>
-        <div className='flex flex-col gap-[1.5rem] lg:max-w-[654px]'>
+      <section className='flex items-center justify-center h-[80vh]'>
+        <div className='flex flex-col gap-[1.5rem] lg:max-w-[654px] items-center'>
           <h1>
             Designing interfaces that feel <span>natural</span> and{' '}
             <span>connect</span> with the <span>users</span>.
@@ -15,6 +15,18 @@ const Hero = () => {
             delightful user experiences that not only look amazing but also
             function flawlessly.
           </p>
+          <div>
+            <div className='rounded-full bg-[#33793B] py-[0.5rem] px-[1.5rem] text-[#fff] text-center inline-flex items-center justify-center gap-2 '>
+              <div className='relative'>
+                <div className='w-3 h-3 bg-[#6FE485] rounded-full animate-ping absolute' />
+                <div className='w-3 h-3 bg-[#6FE485] rounded-full' />
+              </div>
+              <p>
+                Currently working at{' '}
+                <span className='font-bold text-[#fff]'>Adaptify Digital</span>
+              </p>
+            </div>
+          </div>
         </div>
       </section>
     </Container>

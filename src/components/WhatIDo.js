@@ -20,7 +20,7 @@ const WhatIDo = () => {
             return (
               <li
                 key={index}
-                className='py-[0.75rem] border-b border-[#3d3c3b]'
+                className='py-[0.75rem] border-b border-[#3d3c3b] uppercase'
               >
                 {exp}
               </li>

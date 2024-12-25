@@ -26,13 +26,15 @@ li {
   font-family: var(--font-syne);
 }
 
-p {
+p,
+#gmail {
   font-family: var(--font-manrope);
-  @apply lg:text-[1.125rem] text-[1rem] leading-[1.5]
+  @apply lg:text-[1.125rem] text-[1rem] leading-[1.5] font-medium
 }
 
 span {
-  color: var(--primary)
+  color: var(--primary);
+  font-family: var(--font-syne)
 }
 
 h1 {
@@ -40,7 +42,7 @@ h1 {
 }
 
 li {
-  @apply text-[2rem] lg:text-[3.5rem] font-bold leading-[1.125] lg:leading-[0.9]
+  @apply text-[1.75rem] lg:text-[3.5rem] font-bold leading-[1.125] lg:leading-[0.9]
 }
 
 h2 {
@@ -52,7 +54,7 @@ h3 {
 }
 
 h4 {
-  @apply text-[1rem] lg:text-[1.5rem] font-bold leading-[1.125] lg:leading-[1.2] uppercase tracking-[4px]
+  @apply text-[1rem] lg:text-[1.125rem] font-bold leading-[1.125] lg:leading-[1.2] uppercase tracking-[4px]
 }
 
 h5 {
@@ -62,4 +64,43 @@ h5 {
 button {
   font-family: var(--font-manrope);
   @apply text-[0.875rem] lg:text-[1.125rem] font-semibold leading-[1.125] lg:leading-[1.2]
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.animate-scroll {
+  animation: scroll 30s linear infinite;
+}
+
+@keyframes scrollx {
+  0% {
+    transform: translateX(-100%);
+  }
+
+  100% {
+    transform: translateX(0%);
+  }
+}
+
+.animate-scrollx {
+  animation: scrollx 30s linear infinite;
+}
+
+@layer utilities {
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+
+  .no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
 }

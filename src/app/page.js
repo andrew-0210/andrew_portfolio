@@ -1,7 +1,7 @@
 import AboutMe from '@/components/AboutMe';
 import Experience from '@/components/Experience';
 import Hero from '@/components/Hero';
-import Projects from '@/components/Projects';
+import ProjectsSect from '@/components/ProjectsSect';
 import WhatIDo from '@/components/WhatIDo';
 
 export default function Home() {
@@ -10,7 +10,7 @@ export default function Home() {
       <Hero />
       <AboutMe />
       <WhatIDo />
-      <Projects />
+      <ProjectsSect />
       <Experience />
     </main>
   );
