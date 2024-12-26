@@ -45,7 +45,7 @@ const CreativeCooks = () => {
       <Container>
         <section className='max-w-[50.938rem] mx-auto flex flex-col gap-[5rem]'>
           <section>
-            <p id='project-data' className='text-[1.125rem] lg:text-[1.5rem]'>
+            <p id='project-data' className='text-[1.125rem] lg:text-[1.25rem]'>
               Picture this: you&apos;ve had a long day, your fridge looks
               uninspiring, and the thought of cooking feels like a chore.
               That&apos;s where “Creative Cooks” steps in. More than just a
@@ -60,7 +60,7 @@ const CreativeCooks = () => {
             <h2 className='font-semibold text-[#EB5939] pb-[1.5rem]'>
               Problem Statement
             </h2>
-            <p id='project-data' className='text-[1.125rem] lg:text-[1.5rem]'>
+            <p id='project-data' className='text-[1.125rem] lg:text-[1.25rem]'>
               Cooking is a life skill everyone needs, especially working
               professionals living away from their families. However, for many,
               cooking feels overwhelming—it&apos;s not just about knowing a
@@ -75,7 +75,7 @@ const CreativeCooks = () => {
           </section>
           <section>
             <h2 className='font-semibold text-[#EB5939] pb-[1.5rem]'>Intent</h2>
-            <p id='project-data' className='text-[1.125rem] lg:text-[1.5rem]'>
+            <p id='project-data' className='text-[1.125rem] lg:text-[1.25rem]'>
               The app lets users easily find recipe boxes tailored to their
               needs, complete with all the ingredients they require. No more
               last-minute grocery runs or missing items—just hassle-free cooking
@@ -86,7 +86,7 @@ const CreativeCooks = () => {
             <h2 className='font-semibold text-[#EB5939] pb-[1.5rem] '>
               Target Audience
             </h2>
-            <p id='project-data' className='text-[1.125rem] lg:text-[1.5rem]'>
+            <p id='project-data' className='text-[1.125rem] lg:text-[1.25rem]'>
               The app is designed for anyone aged 17 to 60 who wants to make
               cooking simple and enjoyable. This includes:
             </p>
@@ -94,7 +94,7 @@ const CreativeCooks = () => {
               {target.map((tar, index) => {
                 return (
                   <li
-                    className='text-[1.125rem] lg:text-[1.5rem] leading-[1.5] font-medium list-disc'
+                    className='text-[1.125rem] lg:text-[1.25rem] leading-[1.5] font-medium list-disc'
                     key={index}
                   >
                     {tar}
