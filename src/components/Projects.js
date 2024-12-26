@@ -21,18 +21,6 @@ const projects = [
     pic: '/Uniclo_Cover.png',
     href: '/',
   },
-  {
-    name: 'Uniclo',
-    type: 'Product Design',
-    pic: '/Uniclo_Cover.png',
-    href: '/',
-  },
-  {
-    name: 'Uniclo',
-    type: 'Product Design',
-    pic: '/Uniclo_Cover.png',
-    href: '/',
-  },
 ];
 
 const Projects = () => {
