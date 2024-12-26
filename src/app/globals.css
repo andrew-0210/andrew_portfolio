@@ -23,7 +23,8 @@ h3,
 h4,
 h5,
 li,
-#footer {
+#footer,
+#project-data {
   font-family: var(--font-syne);
 }
 
