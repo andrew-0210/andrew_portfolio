@@ -6,7 +6,7 @@ const projects = [
     name: 'Creative Cooks',
     type: 'Case study',
     pic: '/Cover.png',
-    href: '/',
+    href: '/Creative_cooks',
   },
   {
     name: 'Synergia',
