@@ -19,7 +19,7 @@ const projects = [
     name: 'Uniclo',
     type: 'Product Design',
     pic: '/Uniclo_Cover.png',
-    href: '/',
+    href: 'https://www.behance.net/gallery/190496079/Uniclo-HRM',
   },
 ];
 
