@@ -24,7 +24,8 @@ h4,
 h5,
 li,
 #footer,
-#project-data {
+#project-data,
+a {
   font-family: var(--font-syne);
 }
 

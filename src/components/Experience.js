@@ -45,6 +45,17 @@ const Experience = () => {
             );
           })}
         </div>
+        <div className='inline-block pt-6 lg:pt-0'>
+          <a
+            href='/Andrew_Monthero_resume.pdf'
+            target='_blank'
+            alt='Andrew_Resume'
+            rel='noopener noreferrer'
+            className='text-[#FFF] font-semibold px-5 py-3 bg-[#EB5939] inline-block rounded-lg'
+          >
+            Download Resume
+          </a>
+        </div>
       </section>
     </Container>
   );
