@@ -13,7 +13,7 @@ const projects = [
     name: 'Synergia',
     type: 'Website',
     pic: '/Cover.png',
-    href: '/',
+    href: 'https://synergia-hrm.vercel.app/',
   },
   {
     name: 'Uniclo',
