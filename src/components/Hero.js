@@ -1,11 +1,15 @@
 import React from 'react';
 import Container from './Container';
+import AnimationSpline from './AnimationSpline';
 
 const Hero = () => {
   return (
     <Container>
-      <section className='flex items-center justify-center h-[80vh]'>
-        <div className='flex flex-col gap-[1.5rem] lg:max-w-[654px] items-center'>
+      <section className='flex items-center justify-center h-screen  relative'>
+        <div className='absolute  w-screen'>
+          <AnimationSpline />
+        </div>
+        <div className='flex flex-col gap-[1.5rem] lg:max-w-[654px] items-center z-10'>
           <h1>
             Designing interfaces that feel <span>natural</span> and{' '}
             <span>connect</span> with the <span>users</span>.
