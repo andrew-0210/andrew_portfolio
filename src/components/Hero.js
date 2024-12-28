@@ -6,7 +6,7 @@ const Hero = () => {
   return (
     <Container>
       <section className='flex items-center justify-center h-screen  relative'>
-        <div className='absolute  w-screen'>
+        <div className='absolute w-screen'>
           <AnimationSpline />
         </div>
         <div className='flex flex-col gap-[1.5rem] lg:max-w-[654px] items-center z-10'>
