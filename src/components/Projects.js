@@ -13,13 +13,13 @@ const projects = [
     name: 'Synergia',
     type: 'Website',
     pic: '/Cover.png',
-    href: '/',
+    href: 'https://synergia-hrm.vercel.app/',
   },
   {
     name: 'Uniclo',
     type: 'Product Design',
     pic: '/Uniclo_Cover.png',
-    href: '/',
+    href: 'https://www.behance.net/gallery/190496079/Uniclo-HRM',
   },
 ];
 
