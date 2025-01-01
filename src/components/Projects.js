@@ -1,13 +1,12 @@
 import Image from 'next/image';
 import Link from 'next/link';
-import Container from './Container';
 
 const projects = [
   {
     name: 'Creative Cooks',
     type: 'Case study',
     pic: '/Cover.png',
-    href: '/Creative_cooks',
+    href: 'https://medium.com/@andrewmonthero/creative-cooks-ui-ux-case-study-5fb14d3332a1',
   },
   {
     name: 'Synergia',
