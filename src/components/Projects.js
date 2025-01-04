@@ -11,7 +11,7 @@ const projects = [
   {
     name: 'Synergia',
     type: 'Website',
-    pic: '/Cover.png',
+    pic: '/Synergia_Cover.png',
     href: 'https://synergia-hrm.vercel.app/',
   },
   {
