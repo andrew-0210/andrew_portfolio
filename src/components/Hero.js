@@ -1,8 +1,14 @@
-import React from 'react';
+import {useState} from 'react';
 import Container from './Container';
 import AnimationSpline from './AnimationSpline';
 
 const Hero = () => {
+  const [isVisible,setIsVisible] = useState(false);
+
+  const handleIsVisible = () => {
+    setIsVisible(!visible);
+  }
+   
   return (
     <Container>
       <section className='flex items-center justify-center h-screen  relative'>
@@ -25,10 +31,22 @@ const Hero = () => {
                 <div className='w-3 h-3 bg-[#6FE485] rounded-full animate-ping absolute' />
                 <div className='w-3 h-3 bg-[#6FE485] rounded-full' />
               </div>
-              <p>
-                Currently working at{' '}
-                <span className='font-bold text-[#fff]'>Adaptify Digital</span>
-              </p>
+              <div>
+              <div
+        className='px-[2rem] py-[0.5rem] bg-[#3a3a3a] inline-block rounded-full'
+        onClick={handleVisible}
+      >
+        Working at <span className='font-bold '>Adaptify Digital</span>
+      </div>
+      {visible && (
+        <div className='absolute top-1/2 right-0 transform translate-x-full -translate-y-1/2 px-4 py-[0.75rem] bg-[#dfbf76] rounded-full'>
+          <p className='inline-block text-[#1a1a1a] font-semibold'>
+            Since March 2024
+          </p>
+        </div>
+      )}
+              </div>
+              
             </div>
           </div>
         </div>
