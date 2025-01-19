@@ -1,6 +1,7 @@
 import React from 'react';
 import ProjectAnim from './ProjectAnim';
 import Projects from './Projects';
+import Container from './Container';
 
 const ProjectsSect = () => {
   return (
@@ -13,7 +14,9 @@ const ProjectsSect = () => {
           <ProjectAnim />
         </div>
 
-        <Projects />
+        <Container>
+          <Projects />
+        </Container>
       </div>
     </div>
   );

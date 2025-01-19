@@ -24,13 +24,13 @@ const projects = [
 
 const Projects = () => {
   return (
-    <div className='relative flex flex-wrap gap-[2.5rem] overflow-x-auto w-screen px-5 lg:px-0'>
+    <div className='relative flex flex-wrap gap-[2.5rem] overflow-x-auto w-screen'>
       {projects.map((proj, index) => {
         return (
           <Link
             href={proj.href}
             key={index}
-            className='lg:min-w-[573px] w-[24rem] h-full gap-2 flex flex-col'
+            className='lg:min-w-[573px] w-[23rem] h-full gap-2 flex flex-col'
           >
             <div className='relative w-full h-[18rem] lg:h-[25.5rem] lg:w-[35.813rem]'>
               <Image
