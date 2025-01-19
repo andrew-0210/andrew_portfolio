@@ -9,7 +9,7 @@ const ProjectsSect = () => {
         id='projects'
         className=' overflow-hidden flex flex-col gap-[1.5rem]'
       >
-        <div className='top-0 h-full'>
+        <div className='sticky top-0 h-full'>
           <ProjectAnim />
         </div>
 

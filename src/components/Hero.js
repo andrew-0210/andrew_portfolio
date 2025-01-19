@@ -1,22 +1,15 @@
 'use client';
 
-import {useState} from 'react';
 import Container from './Container';
-import AnimationSpline from './AnimationSpline';
+// import AnimationSpline from './AnimationSpline';
 
 const Hero = () => {
-  const [isVisible,setIsVisible] = useState(false);
-
-  const handleIsVisible = () => {
-    setIsVisible(!isVisible);
-  }
-   
   return (
     <Container>
       <section className='flex items-center justify-center h-screen  relative'>
-        <div className='absolute w-screen'>
+        {/* <div className='absolute w-screen'>
           <AnimationSpline />
-        </div>
+        </div> */}
         <div className='flex flex-col gap-[1.5rem] lg:max-w-[654px] items-center z-10'>
           <h1>
             Designing interfaces that feel <span>natural</span> and{' '}
@@ -28,24 +21,15 @@ const Hero = () => {
             function flawlessly.
           </p>
           <div>
-            <div className='rounded-full bg-[#33793B] py-[0.5rem] px-[1.5rem] text-[#fff] text-center inline-flex items-center justify-center gap-2 ' onClick={handleIsVisible}>
+            <div className='rounded-full bg-[#33793B] py-[0.5rem] px-[1.5rem] text-[#fff] text-center inline-flex items-center justify-center gap-2 '>
               <div className='relative'>
                 <div className='w-3 h-3 bg-[#6FE485] rounded-full animate-ping absolute' />
                 <div className='w-3 h-3 bg-[#6FE485] rounded-full' />
               </div>
-        
-    
-        Working at <span className='font-bold '>Adaptify Digital</span>
- 
-      {isVisible && (
-        <div className='absolute top-1/2 right-0 transform translate-x-full -translate-y-1/2 px-4 py-[0.75rem] bg-[#dfbf76] rounded-full'>
-          <p className='inline-block text-[#1a1a1a] font-semibold'>
-            Since March 2024
-          </p>
-        </div>
-      )}
-    
-              
+              <span className='font-bold text-[#fff]'>
+                {' '}
+                Currently Working at Adaptify Digital
+              </span>
             </div>
           </div>
         </div>
