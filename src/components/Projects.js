@@ -6,8 +6,8 @@ const projects = [
     name: 'Creative Cooks',
     type: 'Case study',
     pic: '/Cover.png',
-    // href: 'https://medium.com/@andrewmonthero/creative-cooks-ui-ux-case-study-5fb14d3332a1',
-    href:'/Creative_cooks'
+    href: 'https://medium.com/@andrewmonthero/creative-cooks-ui-ux-case-study-5fb14d3332a1',
+    // href:'/Creative_cooks'
   },
   {
     name: 'Synergia',
