@@ -8,7 +8,7 @@ export default function SmoothScrolling({ children }) {
   // });
 
   return (
-    <ReactLenis root options={{ duration: 5, lerp: 0.2, syncTouch: true }}>
+    <ReactLenis root options={{ duration: 1.5, lerp: 0.2, syncTouch: true }}>
       {children}
     </ReactLenis>
   );
