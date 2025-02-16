@@ -7,6 +7,7 @@ const projects = [
     type: 'Case study',
     pic: '/Cover.png',
     href: 'https://medium.com/@andrewmonthero/creative-cooks-ui-ux-case-study-5fb14d3332a1',
+    // href:'/Creative_cooks'
   },
   {
     name: 'Synergia',
@@ -31,7 +32,9 @@ const Projects = () => {
             href={proj.href}
             key={index}
             className='lg:min-w-[573px] w-[23rem] h-full gap-2 flex flex-col'
-          >
+            passHref
+            legacyBehaviour 
+          ><a target="_blank" rel="noopener noreferrer">
             <div className='relative w-full h-[18rem] lg:h-[25.5rem] lg:w-[35.813rem]'>
               <Image
                 src={proj.pic}
@@ -47,6 +50,7 @@ const Projects = () => {
                 <h5 className='text-[#B7AB98]'>{proj.type}</h5>
               </span>
             </div>
+           </a>
           </Link>
         );
       })}

@@ -3,6 +3,7 @@ import { syne, manrope } from './font/font';
 
 import './globals.css';
 import Contact from '@/components/Contact';
+import SmoothScrolling from '@/components/SmoothScrolling';
 
 export const metadata = {
   title: 'Andrew Portfolio',
@@ -16,7 +17,7 @@ export default function RootLayout({ children }) {
         className={`${syne.variable} ${manrope.variable} antialiased overflow-x-hidden`}
       >
         <Navbar />
-        {children}
+        <SmoothScrolling>{children}</SmoothScrolling>
         <Contact />
       </body>
     </html>
