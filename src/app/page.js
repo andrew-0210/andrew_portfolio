@@ -1,5 +1,4 @@
 import AboutMe from '@/components/AboutMe';
-import AnimationSpline from '@/components/AnimationSpline';
 import Experience from '@/components/Experience';
 import Hero from '@/components/Hero';
 import ProjectsSect from '@/components/ProjectsSect';
@@ -16,3 +15,5 @@ export default function Home() {
     </main>
   );
 }
+
+
